@@ -1,24 +1,18 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
     <title>Binayak Pandey</title>
+    <style>
+      #name {
+        text-align: center;
+        font-family: "Inconsolata", sans-serif;
+      }
+    </style>
   </head>
   <body>
     <header>
       <h1 id="name">My name is Binayak Pandey</h1>
-      <script>
-        var i = 0;
-        var txt = 'My name is Binayak Pandey'; /* The text */
-        var speed = 50; /* The speed/duration of the effect in milliseconds */
-
-        function typeWriter() {
-          if (i < txt.length) {
-          document.getElementById("name").innerHTML += txt.charAt(i);
-          i++;
-          setTimeout(typeWriter, speed);
-          }
-        }
-      </script>
     </header>
   </body>
 </html>
